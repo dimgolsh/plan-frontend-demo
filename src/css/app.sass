@@ -1,0 +1,39 @@
+// app global css in Sass form
+body
+  font-family: 'Rubik', sans-serif
+
+
+.small-screen-only
+  @media (max-width: $breakpoint-xs-max)
+    display: block
+  @media (min-width: $breakpoint-sm-min)
+    display: none
+
+.large-screen-only
+  @media (max-width: $breakpoint-xs-max)
+    display: none
+  @media (min-width: $breakpoint-sm-min)
+    display: block
+
+
+.font-size-12
+  font-size: 12px
+
+.font-size-14
+  font-size: 14px !important
+
+.bg-my-grey-light
+  background: $my-grey-light !important
+
+.bg-my-grey-lighter
+  background: $my-grey-lighter !important
+
+.text-my-grey
+  color: $my-grey !important
+
+.text-my-grey-light
+  color: $my-grey-light !important
+
+
+.text-my-grey-dark
+  color: $my-grey-dark !important
